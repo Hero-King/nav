@@ -3,29 +3,29 @@
 ## 网址导航页面配置
 ################
 # 网站标题
-title: GenEasy 网址导航
+title: HeroKing 网址导航
 # 网站 LOGO（可选）
 # logo: https://webstack.cc/assets/images/logo@2x.png
 # 网址导航页面关键字（可选）
-keywords: 网址导航,网站导航,上网导航,网址大全,常用网站,推荐网站,个人导航,个人书签,个人主页,hao123上网导航,hao123导航,hao123网址大全,GenEasy,Github,Github Pages,SSG
+keywords: 网址导航,网站导航,上网导航,网址大全,常用网站,推荐网站,个人导航,个人书签,HeroKing主页,HeroKing导航,Github Pages,SSG
 # 网址导航页面描述（可选）
 description: 网址导航静态页面通用模板。
 # 网址导航页面 URL（可选）
-url: https://geneasy.github.io/nav/
+url: https://hero-king.github.io/nav/
 # Favicon（可选）
 shortcut_icon: https://avatars.githubusercontent.com/u/91052735?s=70&v=4
 # 社交分享图片（可选）
 og_img: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
 # 主页 URL
-home_url: https://geneasy.github.io/nav/
+home_url: https://hero-king.github.io/nav/
 # GitHub 链接（可选）
-github_url: https://github.com/geneasy/nav
+github_url: https://github.com/hero-king/nav
 # 网站 about 链接（可选）
-about_url: https://github.com/geneasy/nav
+# about_url: https://github.com/geneasy/nav
 # 提交链接的 URL
-link_submission_url: https://github.com/geneasy/nav/issues
+# link_submission_url: https://github.com/geneasy/nav/issues
 # 网站友情链接（可选）
-friendship_links_url: https://geneasy.github.io/links/
+friendship_links_url: https://cxysite.com
 # Google Analytics Code（可选）
 # ga_tracking_code_id: G-ABCDEFG
 
@@ -42,29 +42,39 @@ navigation_urls:
 ## 网址导航数据
 ################
 categories:
-  - category: 新添加
+  - category: HeroKing
     icon: linecons-star
     links:
-      - title: DTO
-        logo: https://dto.pipecraft.net/apple-touch-icon-144.png
-        url: https://dto.pipecraft.net/
-        description: 一个类似 Hacker News, Lobsters 的链接分享社区
-        tags: 程序员,社区
-      - title: BestXTools 社区
-        logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
-        url: https://discuss-cn.bestxtools.com/
-        description: BestXTools 社区是一个发现并分享有趣，有创意，免费、好用的工具的非商业性质的，独立的，开放的社区。
-        tags: 在线工具,周刊,社区
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-        tags: 程序员,生活,创意
-      - title: Pipecraft 社区
-        logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
-        url: https://discuss-cn.pipecraft.net/
-        description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
-        tags: RSS,Atom,聚合新闻,内容订阅
+      - title: OP系统
+        #logo: 
+        url: https://op.heroking.top:8000
+        description: 软路由系统
+        tags: 软路由,openwrt
+      - title: 服务器
+        #logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
+        url: https://server.heroking.top:8000
+        description: 使用openwrt系统搭建的服务器
+        tags: openwrt,serer
+      - title: pve
+        #logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
+        url: https://pve.heroking.top:8000
+        description: pve虚拟机
+        tags: pve,虚拟机
+      - title: alist网盘
+        #logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
+        url: https://server.heroking.top:5244
+        description: 个人Nas系统
+        tags: Alist,Nas,文件共享
+      - title: 离线下载
+        url: https://server.heroking.top:8000/ariang/
+        description: aria2下载神器
+        tags: aria2,ariang,离线下载
+      - title: HeroKing Blog
+        url: https://blog.heroking.top
+        description: 个人博客
+      - title: HeroKing nginx
+        url: https://www.heroking.top:8000
+        description: 使用nginx搭建的个人网站
 
   - category: 推荐
     hide_menu: true
