@@ -90,20 +90,16 @@ categories:
       - title: 前端相关书籍
         url: https://mp.weixin.qq.com/s/bAEKxqlW3WEeVw3bvg_0tQ
         description: 微信公众号撩撩前端
-      - title: fastmock数据
-        url: https://www.fastmock.site/#/login
-        description: fastmock
       - title: 小卷村
         url: http://1.116.236.205/
         description: 无锡互联网荒漠~
 
-  - category: 程序员博客
+  - category: Vue
     icon: linecons-doc
     links:
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
+      - title: Vue3源码
+        url: https://boychina.github.io/posts/2020-12-19-vue3-core-source-code-0
+        description: vue3源码解析
       - title: 等你来加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/nav/issues
