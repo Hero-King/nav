@@ -93,6 +93,9 @@ categories:
       - title: 小卷村
         url: http://1.116.236.205/
         description: 无锡互联网荒漠~
+      - title: 设计师网址导航
+        url: https://webstack.cc/cn/index.html
+        description: 设计师常用网站
 
   - category: Vue
     icon: linecons-doc
